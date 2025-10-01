@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop ABC - Electronic-Tkj</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Notifikasi -->
+  <div id="notifikasi"></div>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-brand"><h1>Electronic-Tkj</h1></div>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="produk-detail">
+    <div class="container">
+      <h2>Proyektor Penampil Kenangan Masa Lalu</h2>
+      <img src="proyektor.jpg" alt="Laptop ABC" class="produk-image">
+      <p>Resolusi 4K, Ukuran 30-300 inci, Port HDMI,VGA,dan USB Type C.</p>
+      <span class="harga">Rp 2.500.000</span>
+      
+      <!-- Tombol -->
+      <button onclick="tambahKeKeranjang('Laptop ABC', 12000000)" class="cta-button">
+        Tambahkan ke Keranjang
+      </button>
+      <button onclick="pesanSekarang()" class="pesan-sekarang">
+        Pesan Sekarang
+      </button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
