@@ -1,184 +1,93 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Electronic-Tkj - Toko Elektronik Online</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Electronic-Tkj - Toko Elektronik Online</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-brand">
-                <h1>Electronic-Tkj</h1>
-            </div>
-            <div class="nav-menu">
-                <a href="#produk" class="nav-link">Produk</a>
-                <a href="#kontak" class="nav-link">Kontak Kami</a>
-                <a href="#tentang" class="nav-link">Tentang Kami</a>
-            </div>
-            <div class="nav-account">
-                <a href="#akun" class="account-link">User 12Tkj</a>
-            </div>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <h1>Electronic-Tkj</h1>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="produk.html" class="nav-link">Produk</a>
+        <a href="kontak.html" class="nav-link">Kontak Kami</a>
+        <a href="tentang.html" class="nav-link">Tentang Kami</a>
+      </div>
+      <div class="nav-account">
+        <a href="keranjang.html" class="cart-link">🛒</a>
+        <a href="#akun" class="account-link">User 12Tkj</a>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Selamat Datang di Electronic-Tkj</h2>
-            <p>Toko elektronik online terpercaya dengan berbagai pilihan produk berkualitas</p>
-            <button class="cta-button">Jelajahi Produk</button>
-        </div>
-    </section>
-
-    <!-- Produk Section -->
-    <section id="produk" class="produk-section">
-        <div class="container">
-            <h3 class="section-title">Produk Kami</h3>
-            <div class="produk-grid">
-                <!-- Produk 1: Smartphone -->
-                <div class="produk-card">
-                    <img src="printer.jpg" alt="Smartphone XYZ" class="produk-image" />
-                    <h4>Printer Pencetak Kenangan</h4>
-                    <p>Printer Modern Generasi Terbaru, Kecepatan Tinggi, Harga Terjangkau.</p>
-                    <span class="harga">Rp 2.360.000</span>
-                    <a href="produk1.html" class="btn-beli">Pesan</a>
-                </div>
-
-                <!-- Produk 2: Laptop & Komputer -->
-                <div class="produk-card">
-                    <img src="proyektor.jpg" alt="Laptop ABC" class="produk-image" />
-                    <h4>Proyektor Penampil Kenangan Masa Lalu</h4>
-                    <p>Resolusi 4K, Ukuran 30-300 inci, Port HDMI,VGA,dan USB Type C.</p>
-                    <span class="harga">Rp 2.500.000</span>
-                    <a href="produk2.html" class="btn-beli">Pesan</a>
-                </div>
-
-                <!-- Produk 3: Audio & Headphone -->
-                <div class="produk-card">
-                    <img src="modem.jpg" alt="Headphone Pro" class="produk-image" />
-                    <h4>Modem Pemberi Sinyal Ke Dia</h4>
-                    <p>Jaringan 4G Hingga 5G, Memiliki 4 Lan Port, Memiliki Antena.</p>
-                    <span class="harga">Rp 340.000</span>
-                    <a href="produk3.html" class="btn-beli">Pesan</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Kontak Section -->
-    <section id="kontak" class="kontak-section">
-        <div class="container">
-            <h3 class="section-title">Kontak Kami</h3>
-            <div class="kontak-grid">
-                <div class="kontak-info">
-                    <h4>Hubungi Kami</h4>
-                    <div class="kontak-item">
-                        <strong>Telepon:</strong>
-                        <span>(+62) 81234-5678</span>
-                    </div>
-                    <div class="kontak-item">
-                        <strong>Email:</strong>
-                        <span>info-electronic-tkj@gmail.com</span>
-                    </div>
-                    <div class="kontak-item">
-                        <strong>Alamat:</strong>
-                        <span>Jl. Suki No. 123, Takalar</span>
-                    </div>
-                    <div class="kontak-item">
-                        <strong>Jam Operasional:</strong>
-                        <span>Senin - Jumat, 08:00 - 22:00 WITA</span>
-                    </div>
-                </div>
-                <div class="kontak-form">
-                    <h4>Kirim Pesan</h4>
-                    <form class="message-form">
-                        <input type="text" placeholder="Nama Lengkap" required />
-                        <input type="email" placeholder="Email" required />
-                        <input type="tel" placeholder="No. Telepon" />
-                        <textarea placeholder="Pesan Anda" rows="5" required></textarea>
-                        <button type="submit">Kirim Pesan</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tentang Kami Section -->
-    <section id="tentang" class="tentang-section">
-        <div class="container">
-            <h3 class="section-title">Tentang Kami</h3>
-            <div class="tentang-content">
-                <div class="tentang-text">
-                    <h4>Electronic-Tkj - Solusi Belanja Elektronik Terpercaya</h4>
-                    <p>
-                        Electronic-Tkj didirikan pada tahun 2025 dengan misi menyediakan produk elektronik berkualitas tinggi dengan harga terjangkau. Kami berkomitmen untuk memberikan pengalaman belanja online yang aman, nyaman, dan memuaskan.
-                    </p>
-
-                    <h5>Visi Kami</h5>
-                    <p>Menjadi platform belanja elektronik online terdepan di Indonesia yang dapat diandalkan oleh seluruh masyarakat.</p>
-
-                    <h5>Misi Kami</h5>
-                    <ul>
-                        <li>Menyediakan produk elektronik original dan berkualitas</li>
-                        <li>Memberikan pelayanan terbaik kepada pelanggan</li>
-                        <li>Menjaga keamanan dan kenyamanan dalam bertransaksi</li>
-                        <li>Berkontribusi dalam perkembangan teknologi di Indonesia</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Akun Modal -->
-    <div id="akun-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <span class="close" title="Tutup">&times;</span>
-            <h3>Akun User12Tkj</h3>
-            <div class="akun-info">
-                <p><strong>Nama:</strong> User12Tkj</p>
-                <p><strong>Email:</strong> user12tkj@gmail.com</p>
-                <p><strong>Nomor Telepon:</strong> 0812-3456-7890</p>
-                <p><strong>Alamat:</strong> Jl. Jomok No. 45, Takalar</p>
-                <p><strong>Status:</strong> Aktif</p>
-            </div>
-        </div>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Selamat Datang di Electronic-Tkj</h2>
+      <p>Toko elektronik online terpercaya dengan berbagai pilihan produk berkualitas</p>
+      
+      <!-- Tombol navigasi di hero -->
+      <div class="hero-buttons">
+        <a href="produk.html" class="hero-btn">Produk</a>
+        <a href="kontak.html" class="hero-btn">Kontak</a>
+        <a href="tentang.html" class="hero-btn">Tentang</a>
+      </div>
     </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Electronic-Tkj</h4>
-                    <p>Toko elektronik online terpercaya dengan berbagai pilihan produk berkualitas terbaik.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Kategori</h4>
-                    <ul>
-                        <li><a href="#smartphone">Smartphone</a></li>
-                        <li><a href="#laptop">Laptop</a></li>
-                        <li><a href="#audio">Audio</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Bantuan</h4>
-                    <ul>
-                        <li><a href="#panduan">Panduan Belanja</a></li>
-                        <li><a href="#pengiriman">Pengiriman</a></li>
-                        <li><a href="#garansi">Garansi</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Electronic-Tkj. Semua hak dilindungi.</p>
-            </div>
+  <!-- Akun Modal -->
+  <div id="akun-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close" title="Tutup">&times;</span>
+      <h3>Akun User12Tkj</h3>
+      <div class="akun-info">
+        <p><strong>Nama:</strong> User12Tkj</p>
+        <p><strong>Email:</strong> user12tkj@gmail.com</p>
+        <p><strong>Nomor Telepon:</strong> 0812-3456-7890</p>
+        <p><strong>Alamat:</strong> Jl. Jomok No. 45, Takalar</p>
+        <p><strong>Status:</strong> Aktif</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Electronic-Tkj</h4>
+          <p>Toko elektronik online terpercaya dengan berbagai pilihan produk berkualitas terbaik.</p>
         </div>
-    </footer>
+        <div class="footer-section">
+          <h4>Kategori</h4>
+          <ul>
+            <li><a href="produk.html">Printer</a></li>
+            <li><a href="produk.html">Modem dan Access Point</a></li>
+            <li><a href="produk.html">Proyektor</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Bantuan</h4>
+          <ul>
+            <li><a href="#">Panduan Belanja</a></li>
+            <li><a href="#">Pengiriman</a></li>
+            <li><a href="#">Garansi</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Electronic-Tkj. Semua hak dilindungi.</p>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
